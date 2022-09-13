@@ -1,6 +1,4 @@
-﻿<Project>
-
-  <Import Project="Sdk.props" Sdk="Microsoft.NET.Sdk" />
+﻿<Project> 
   <Import Project="..\..\..\global.props" />
 
   <PropertyGroup>

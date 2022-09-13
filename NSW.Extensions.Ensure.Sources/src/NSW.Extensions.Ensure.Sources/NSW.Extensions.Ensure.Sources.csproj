@@ -1,0 +1,10 @@
+<Project>
+  <Import Project="..\..\..\global.props" />
+
+  <PropertyGroup>
+    <Version>1.0.0</Version>
+    <PackageId>MySale.Extensions.Ensure.Sources</PackageId>
+    <PackageTags>mysale;extensions;internal;ensure</PackageTags>
+  </PropertyGroup>
+
+</Project>
