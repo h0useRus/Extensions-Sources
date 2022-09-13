@@ -1,10 +1,18 @@
 <Project>
-  <Import Project="..\..\..\global.props" />
+	<Import Project="..\..\..\global.props" />
 
-  <PropertyGroup>
-    <Version>1.0.0</Version>
-    <PackageId>NSW.Extensions.Ensure.Sources</PackageId>
-    <PackageTags>NSW;extensions;internal;ensure</PackageTags>
-  </PropertyGroup>
+	<PropertyGroup>
+		<Version>1.0.0</Version>
+		<PackageId>NSW.Extensions.Ensure.Sources</PackageId>
+		<PackageTags>NSW;extensions;internal;ensure</PackageTags>
+		<PackageIcon>icon-nsw-ensure-sources.png</PackageIcon>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\..\icon-nsw-ensure-sources.png">
+		<Pack>True</Pack>
+		<PackagePath></PackagePath>
+		</None>
+	</ItemGroup>
 
 </Project>
