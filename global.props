@@ -10,6 +10,7 @@
 		<Copyright>2008-2022 NewSoftWorld</Copyright>
 		<PackageProjectUrl>https://github.com/h0useRus/Extensions-Sources</PackageProjectUrl>
 	</PropertyGroup>
+	
 	<PropertyGroup Label="Package">
 		<IsPackable>true</IsPackable>
 		<IncludeBuildOutput>false</IncludeBuildOutput>

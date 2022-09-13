@@ -3,8 +3,8 @@
 
   <PropertyGroup>
     <Version>1.0.0</Version>
-    <PackageId>MySale.Extensions.Ensure.Sources</PackageId>
-    <PackageTags>mysale;extensions;internal;ensure</PackageTags>
+    <PackageId>NSW.Extensions.Ensure.Sources</PackageId>
+    <PackageTags>NSW;extensions;internal;ensure</PackageTags>
   </PropertyGroup>
 
 </Project>
