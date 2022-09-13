@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2026
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AB073508-9D4F-44C6-A8EC-6EC41A892832}"
 EndProject
@@ -10,6 +10,12 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NSW.Extensions.Strings.Sources", "src\NSW.Extensions.Strings.Sources\NSW.Extensions.Strings.Sources.csproj", "{A31D3BBC-86CC-4F09-B2AF-7EDA6604924B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NSW.Extensions.Strings.Sources.Tests", "tests\NSW.Extensions.Strings.Sources.Tests\NSW.Extensions.Strings.Sources.Tests.csproj", "{9B3A3794-8627-4244-BC6B-E81278EBD24A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EE3F066C-FBC7-4410-8C78-0BA8EE3B8BC3}"
+	ProjectSection(SolutionItems) = preProject
+		..\framework.props = ..\framework.props
+		..\global.props = ..\global.props
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

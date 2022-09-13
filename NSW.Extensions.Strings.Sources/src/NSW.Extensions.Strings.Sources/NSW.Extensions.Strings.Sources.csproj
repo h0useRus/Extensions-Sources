@@ -1,43 +1,14 @@
-<Project>
+﻿<Project>
 
   <Import Project="Sdk.props" Sdk="Microsoft.NET.Sdk" />
+  <Import Project="..\..\..\global.props" />
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
     <Version>1.0.0</Version>
     <PackageId>NSW.Extensions.Strings.Sources</PackageId>
     <PackageTags>NSW;extensions;internal;strings;stringbuilder</PackageTags>
-	<Authors>Denis Ibragimov</Authors>
-	<Copyright>2008-2022 NewSoftWorld</Copyright>
-    <PackageIcon>icon-nsw-strings-sources.png</PackageIcon>
-    <PackageProjectUrl>https://github.com/h0useRus/Extensions-Sources</PackageProjectUrl>
-    <RootNamespace>NSW.Extensions.Internal</RootNamespace>
-    <IsPackable>true</IsPackable>
-    <IncludeBuildOutput>false</IncludeBuildOutput>
-    <ContentTargetFolders>contentFiles</ContentTargetFolders>
-    <DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
-    <GenerateAssemblyInfo>false</GenerateAssemblyInfo> 
-    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
-    <NoWarn>CS8021</NoWarn>
-    <NoBuild>true</NoBuild>
-    <LangVersion>Latest</LangVersion>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageIcon>icon-nsw-strings-sources.png</PackageIcon>    
   </PropertyGroup>
-
-  <ItemGroup>
-    <Compile Update="@(Compile)">
-      <Pack>true</Pack>
-      <PackagePath>$(ContentTargetFolders)\cs\$(TargetFramework)\$(PackageId)\</PackagePath>
-    </Compile>
-    <EmbeddedResource Update="@(EmbeddedResource)">
-      <Pack>true</Pack>
-      <PackagePath>$(ContentTargetFolders)\any\any\$(PackageId)\%(RecursiveDir)\</PackagePath>
-    </EmbeddedResource>
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Remove="@(PackageReference)" />
-  </ItemGroup>
 
   <ItemGroup>
     <None Include="..\..\icon-nsw-strings-sources.png">
@@ -45,10 +16,5 @@
       <PackagePath></PackagePath>
     </None>
   </ItemGroup>
-
-  <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
-
-  <Target Name="Compile" />
-  <Target Name="CopyFilesToOutputDirectory" />
 
 </Project>
